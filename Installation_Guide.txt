@@ -1,0 +1,24 @@
+Installation Environment
+
+conda create -y -n HDViton python=3.8
+conda activate HDViton
+pip install torch==2.4.1+cu121 torchvision==0.19.1+cu121 --index-url https://download.pytorch.org/whl/cu121
+pip install opencv-python torchgeometry
+
+
+
+conda create -y -n CarveKit python=3.11.7
+conda activate CarveKit
+pip install carvekit --extra-index-url https://download.pytorch.org/whl/cu121
+pip install matplotlib ultralytics
+
+
+-------------------------------------------------------
+
+Run
+
+In folder Input need to have Person image and Cloth image
+
+"python Main.py" type in conda command prompt
+
+then wait for the output of the model in the Result folder
