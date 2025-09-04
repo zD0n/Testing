@@ -1,9 +1,9 @@
 affd29dcfc892077fd5194ae1cd3f129
-::res://::1756953955
+::res://::1756954373
 ADD-ON AND METHOD file and link.md::TextFile/TextFile::-1::1756951292::0::1::::<><><>0<>0<><>::
 audio_manager.gd::GDScript/GDScript::5422203797257588723::1756943610::0::1::::<>Node<><>0<>0<><>::
 default_bus_layout.tres::AudioBusLayout/AudioBusLayout::8388152890385614545::1756944440::0::1::::<><><>0<>0<><>::
-export_presets.cfg::TextFile/TextFile::-1::1756953667::0::1::::<><><>0<>0<><>::
+export_presets.cfg::TextFile/TextFile::-1::1756954373::0::1::::<><><>0<>0<><>::
 README.md::TextFile/TextFile::-1::1756951292::0::1::::<><><>0<>0<><>::
 setting_world.gd::GDScript/GDScript::7857456058354294347::1756944440::0::1::::<>Node2D<><>0<>0<><>::
 ::res://addons/::1756951374
@@ -113,9 +113,9 @@ resource_tree.gd::GDScript/GDScript::6569554689294066601::1756951292::0::1::::<>
 resource_tree.tscn::PackedScene/PackedScene::5371907658088870246::1756951292::0::1::::<><><>0<>0<><>::uid://c0uluuovvv32l::::res://addons/AsepriteWizard/interface/shared/tree/resource_tree.gd<>uid://it1pasxm75sw::::res://addons/AsepriteWizard/interface/imports_manager/tree_filter_field.gd
 tree_selection_confirmation_warning.gd::GDScript/GDScript::3179478075229350465::1756951292::0::1::::<>VBoxContainer<><>0<>1<><>::
 tree_selection_confirmation_warning.tscn::PackedScene/PackedScene::1136156742705764826::1756951292::0::1::::<><><>0<>0<><>::uid://blkfslrprkfmv::::res://addons/AsepriteWizard/interface/shared/tree/tree_selection_confirmation_warning.gd
-::res://Asset/::1756953899
+::res://Asset/::1756954288
 Dialogue_game.txt::TextFile/TextFile::-1::1756951292::0::1::::<><><>0<>0<><>::
-Sarabun-Regular.ttf::FontFile/FontFile::5750394336629374628::1756953854::1756953899::1::::<><><>0<>0<>cf14a61cbf16a4d59463921ea21be09a<>res://.godot/imported/Sarabun-Regular.ttf-98421d480880ca931a71258618797017.fontdata::
+paaymaay_regular.ttf::FontFile/FontFile::7147400910384695413::1756954244::1756954261::1::::<><><>0<>0<>bf4c44d99e4d2cf3b11b9e439bed0010<>res://.godot/imported/paaymaay_regular.ttf-8b8bf04cdcf96be53e16f40a2aeb0221.fontdata::
 ::res://Asset/Audio/::1756951374
 ::res://Asset/Audio/Music/::1756951374
 ssvid.net--Dark-Piano-Sociopath.mp3::AudioStreamMP3/AudioStreamMP3::3829642889122641823::1756939426::1756951310::1::::<><><>0<>0<>50d1e29ae6671e784f1ca3d73841d677<>res://.godot/imported/ssvid.net--Dark-Piano-Sociopath.mp3-a0b3292f12e8c9a6e1d1fc051d9708e1.mp3str::
@@ -162,7 +162,10 @@ Intro1.png::CompressedTexture2D/CompressedTexture2D::6633897108444411352::175692
 Intro2.png::CompressedTexture2D/CompressedTexture2D::3302987511729192395::1756929026::1756951310::1::::<><><>0<>0<>78175dba6e621ccb7ce8a3bea6d67120<>res://.godot/imported/Intro2.png-201e0b3ad41e84d7c26da53d0bbda9b7.ctex::
 Mansion.png::CompressedTexture2D/CompressedTexture2D::3285543990931221104::1756951292::1756951310::1::::<><><>0<>0<>8bb3218b42f3083cc7eb58b07d5bb8ec<>res://.godot/imported/Mansion.png-f13acc30e10ae28227bdf9bd3b5859a8.ctex::
 white_backgroud.png::CompressedTexture2D/CompressedTexture2D::6312437771731718645::1756944440::1756951310::1::::<><><>0<>0<>dcea54d61ea7a316a6df162d8ec66cb0<>res://.godot/imported/white_backgroud.png-ccfb036c49b8915aecda4b97b370af22.ctex::
-::res://docs/::1756953894
+::res://docs/::1756954377
+index.apple-touch-icon.png::CompressedTexture2D::840699702837987619::1756954377::1756954383::1::::<><><>0<>0<>11b5528006e29cb70c60d62f9a8d6ad7<>res://.godot/imported/index.apple-touch-icon.png-b21a756d869f84af832970a74d8371bc.ctex::
+index.icon.png::CompressedTexture2D::3810706531227078289::1756954377::1756954383::1::::<><><>0<>0<>0efbcfcf7f3f7e72d1f96f1cfa2f6cf4<>res://.godot/imported/index.icon.png-b92c9a802ad4b78e247784454a6b506f.ctex::
+index.png::CompressedTexture2D::8411192063031092565::1756954377::1756954384::1::::<><><>0<>0<>36d351711980430b34ad6a1462ce37c8<>res://.godot/imported/index.png-0c78d14d192abe5f22f8c25928ca1ab8.ctex::
 ::res://Game Mechanics Demo/::1756951375
 ::res://Game Mechanics Demo/Json Conver/::1756951375
 ::res://Game Mechanics Demo/Json Conver/example/::1756951375
@@ -192,10 +195,10 @@ dialog_ans_id.json::JSON/JSON::-1::1756944440::0::1::::<><><>0<>0<><>::
 dialog_con_id.json::JSON/JSON::-1::1756952545::0::1::::<><><>0<>0<><>::
 dialog_timeline.json::JSON/JSON::-1::1756952562::0::1::::<><><>0<>0<><>::
 interact_obj_item.json::JSON/JSON::-1::1756944440::0::1::::<><><>0<>0<><>::
-::res://Scene/::1756953949
+::res://Scene/::1756954345
 audio_manager.tscn::PackedScene/PackedScene::8246619526490735433::1756944440::0::1::::<><><>0<>0<><>::res://audio_manager.gd<>uid://butdwnwcnbqf4::::res://Asset/Audio/Music/ssvid.net--Dark-Piano-Sociopath.mp3<>uid://d07oqm1askwmn::::res://Asset/Audio/SFX/8-bit talking sound effects! cut.mp3<>uid://drvuvy5rqtfgd::::res://Asset/Audio/SFX/Door Opening Sound Effect.mp3<>uid://bqat33sywantn::::res://Asset/Audio/SFX/Door knocking sound effect cut.mp3<>uid://cxuqubbsqqh0i::::res://Asset/Audio/SFX/ssvid.net--Sound-Effects-Footsteps.mp3
 cellar.tscn::PackedScene/PackedScene::1258406766810080248::1756944440::0::1::::<><><>0<>0<><>::uid://cgekle46gxk7j::::res://Scene/screen_tranfer_trigger_area.tscn<>res://script/cellar.gd<>uid://bubeeeol3fveq::::res://Scene/enter_mark_point.tscn<>uid://bm0a1gejtd8mg::::res://Scene/forniture.tscn
-character_dialog_layer.tscn::PackedScene::5600487637730851385::1756953949::0::1::::<><><>0<>0<><>::uid://cchhv1woyihes::::res://script/character_dialog_script.gd<>uid://d2v3ecylver60::::res://Asset/Tiles/black_background.png<>uid://cv616st5j81hh::::res://Asset/Tiles/white_backgroud.png<>uid://0e0rdx6xrm4w::::res://Asset/Character/Rigo/Rigo.png<>uid://ockebcoevtig::::res://theme/dialog_theme.tres<>uid://drytu5qamedg6::::res://Asset/Character/Silvy/Silvy.png<>uid://bcqv7w74dm88o::::res://Asset/Character/Dell/Dell.png<>uid://eg5pkmgpkxk5::::res://Asset/Character/Julian/Julian.png<>uid://btutv0lvia5om::::res://Asset/Character/Kyo/Kyo.png<>uid://wc518einle36::::res://Asset/Character/Rainbell/Rainbell.png<>uid://cvgr3r0ioxnff::::res://Asset/Character/Real/real.png<>uid://r8ktgt5p4pml::::res://Asset/Character/M.JPG
+character_dialog_layer.tscn::PackedScene::5600487637730851385::1756954345::0::1::::<><><>0<>0<><>::uid://cchhv1woyihes::::res://script/character_dialog_script.gd<>uid://d2v3ecylver60::::res://Asset/Tiles/black_background.png<>uid://cv616st5j81hh::::res://Asset/Tiles/white_backgroud.png<>uid://0e0rdx6xrm4w::::res://Asset/Character/Rigo/Rigo.png<>uid://ockebcoevtig::::res://theme/dialog_theme.tres<>uid://drytu5qamedg6::::res://Asset/Character/Silvy/Silvy.png<>uid://c83iwb7khxgo0::::res://Asset/paaymaay_regular.ttf<>uid://bcqv7w74dm88o::::res://Asset/Character/Dell/Dell.png<>uid://eg5pkmgpkxk5::::res://Asset/Character/Julian/Julian.png<>uid://btutv0lvia5om::::res://Asset/Character/Kyo/Kyo.png<>uid://wc518einle36::::res://Asset/Character/Rainbell/Rainbell.png<>uid://cvgr3r0ioxnff::::res://Asset/Character/Real/real.png<>uid://r8ktgt5p4pml::::res://Asset/Character/M.JPG
 charecter_dialog_area.tscn::PackedScene/PackedScene::8296695954578215563::1756944440::0::1::::<><><>0<>0<><>::uid://xfondc0d44gu::::res://script/dialog_charecter_area.gd
 chilfie.tscn::PackedScene/PackedScene::5241901680218757097::1756944440::0::1::::<><><>0<>0<><>::uid://dqg8mt7yhror0::::res://Scene/charecter_dialog_area.tscn
 delmon.gd::GDScript/GDScript::4698175823147387152::1756943609::0::1::::<>CharacterBody2D<><>0<>0<><>::
@@ -209,7 +212,7 @@ inventory_ui_layer.tscn::PackedScene/PackedScene::1752739032622432209::175694444
 julius.tscn::PackedScene/PackedScene::8186430252252157326::1756944440::0::1::::<><><>0<>0<><>::uid://dqg8mt7yhror0::::res://Scene/charecter_dialog_area.tscn
 kyoto.tscn::PackedScene/PackedScene::5174512754117810535::1756944440::0::1::::<><><>0<>0<><>::uid://dqg8mt7yhror0::::res://Scene/charecter_dialog_area.tscn
 living_room.tscn::PackedScene/PackedScene::1479357914390023953::1756944440::0::1::::<><><>0<>0<><>::uid://b1f4x7l15i4aw::::res://script/World_base_script/room.gd<>uid://bm0a1gejtd8mg::::res://Scene/forniture.tscn<>uid://d2v3ecylver60::::res://Asset/Tiles/black_background.png<>uid://ecsp4gs3mboy::::res://Scene/story_living.gd<>uid://dqg8mt7yhror0::::res://Scene/charecter_dialog_area.tscn<>uid://cgekle46gxk7j::::res://Scene/screen_tranfer_trigger_area.tscn<>uid://bubeeeol3fveq::::res://Scene/enter_mark_point.tscn<>uid://b4d2c8m58oit2::::res://Scene/delmon.tscn<>uid://dovtksugk4xoo::::res://Scene/julius.tscn<>uid://cfytp7hyqfkn4::::res://Scene/kyoto.tscn<>uid://c4nef5x01tmdy::::res://Scene/renbel.tscn<>uid://dhjv7l0tjy251::::res://Scene/ryou.tscn<>uid://cl16hinyu50v2::::res://Scene/character_dialog_layer.tscn
-main_menu.tscn::PackedScene::1820896395439201413::1756953502::0::1::::<><><>0<>0<><>::uid://br28e8eupw0yk::::res://script/main_menu.gd<>uid://ch7h74hd7tawj::::res://Image/BackGround/Menu.jpg
+main_menu.tscn::PackedScene::1820896395439201413::1756954334::0::1::::<><><>0<>0<><>::uid://br28e8eupw0yk::::res://script/main_menu.gd<>uid://ch7h74hd7tawj::::res://Image/BackGround/Menu.jpg
 owner_room.tscn::PackedScene/PackedScene::6818991664988244039::1756944440::0::1::::<><><>0<>0<><>::uid://bm0a1gejtd8mg::::res://Scene/forniture.tscn<>uid://cgekle46gxk7j::::res://Scene/screen_tranfer_trigger_area.tscn<>res://script/owner_room.gd<>uid://bubeeeol3fveq::::res://Scene/enter_mark_point.tscn<>uid://cl16hinyu50v2::::res://Scene/character_dialog_layer.tscn<>uid://dqg8mt7yhror0::::res://Scene/charecter_dialog_area.tscn<>res://Scene/story_owner.gd<>uid://y8bmdj6sfp2x::::res://Scene/inventory_ui_layer.tscn
 player.tscn::PackedScene/PackedScene::7155993555763706106::1756944440::0::1::::<><><>0<>0<><>::uid://h1yj51g1cop0::::res://script/player.gd<>uid://ccigagpmywj1c::::res://Image/Character_Profile/tex_support_card_30028.png<>uid://bh0qfu8f8afk2::::res://Scene/setting_interface_layer.tscn
 renbel.tscn::PackedScene/PackedScene::6835408153034905670::1756944440::0::1::::<><><>0<>0<><>::uid://dqg8mt7yhror0::::res://Scene/charecter_dialog_area.tscn
@@ -247,5 +250,5 @@ story_layer.gd::GDScript/GDScript::8224539608249996408::1756943610::0::1::::<>No
 room.gd::GDScript/GDScript::4223456072064094250::1756944440::0::1::::<>BaseScene<><>0<>0<><>::
 world.gd::GDScript/GDScript::1000645778775947654::1756944440::0::1::::<>BaseScene<><>0<>0<><>::
 world_2.gd::GDScript/GDScript::6087247503809020423::1756944440::0::1::::<>BaseScene<><>0<>0<><>::
-::res://theme/::1756953499
-dialog_theme.tres::Theme::987386935799105034::1756953499::0::1::::<><><>0<>0<><>::
+::res://theme/::1756954330
+dialog_theme.tres::Theme::987386935799105034::1756954330::0::1::::<><><>0<>0<><>::

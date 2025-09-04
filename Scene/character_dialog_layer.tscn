@@ -6,7 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://0e0rdx6xrm4w" path="res://Asset/Character/Rigo/Rigo.png" id="4_ft204"]
 [ext_resource type="Theme" uid="uid://ockebcoevtig" path="res://theme/dialog_theme.tres" id="4_jvgqs"]
 [ext_resource type="Texture2D" uid="uid://drytu5qamedg6" path="res://Asset/Character/Silvy/Silvy.png" id="5_jvgqs"]
-[ext_resource type="FontFile" uid="uid://cn6sfixwmq1sy" path="res://Asset/Sarabun-Regular.ttf" id="5_na7qg"]
+[ext_resource type="FontFile" uid="uid://c83iwb7khxgo0" path="res://Asset/paaymaay_regular.ttf" id="5_na7qg"]
 [ext_resource type="Texture2D" uid="uid://bcqv7w74dm88o" path="res://Asset/Character/Dell/Dell.png" id="6_na7qg"]
 [ext_resource type="Texture2D" uid="uid://eg5pkmgpkxk5" path="res://Asset/Character/Julian/Julian.png" id="7_iflwg"]
 [ext_resource type="Texture2D" uid="uid://btutv0lvia5om" path="res://Asset/Character/Kyo/Kyo.png" id="8_emcmp"]
