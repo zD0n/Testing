@@ -7,24 +7,22 @@ var past_select: CollisionShape2D
 var trigger = 0
 var trig = true
 
-func _ready() -> void:
-	#SignalBusser.emit_signal("display_char_dialog","Or_Ch3")
-	area_trigger_story = get_children()
-	activate_event()
-
-func _process(delta: float) -> void:
-	if area_trigger_story.size() > event_index:
-		if area_trigger_story[event_index].area_active and area_trigger_story[event_index].interact :
-			area_trigger_story[event_index].area_active = false
-			recive_signal()
+func _input(event: InputEvent) -> void:
+	if $Charecter_Dialog_Area.interact == true and event.is_action_pressed("Skip"):
+		if trig:
+			trig = false
+			trigger = 1
 		
-func activate_event():
-	if area_trigger_story.size() > event_index:
-		select_ = area_trigger_story[event_index].get_children()[1].get_children()[0]
-		select_.disabled = false
-		past_select = select_
-		
-func recive_signal():
-	past_select.disabled = true
-	event_index += 1
-	activate_event()
+		elif trigger == 7:
+			$"../BlackBackground".modulate.a = 0.0
+			$"../BlackBackground".visible = true
+			for i in 20:
+				$"../BlackBackground".modulate.a += 0.05
+				await get_tree().create_timer(0.1).timeout
+			trigger += 1
+			
+		elif trigger == 10:
+			get_tree().change_scene_to_file("res://Scene/main_menu.tscn")
+			
+		else:
+			trigger += 1

@@ -18,10 +18,10 @@
 
 [sub_resource type="LabelSettings" id="LabelSettings_na7qg"]
 line_spacing = 4.0
-font_size = 30
+font_size = 48
 
 [sub_resource type="LabelSettings" id="LabelSettings_iflwg"]
-font_size = 20
+font_size = 32
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_ialet"]
 animations = [{
@@ -175,13 +175,15 @@ theme = ExtResource("4_jvgqs")
 
 [node name="Label" type="Label" parent="text_dialog_bag/continu"]
 layout_mode = 0
-offset_top = 17.0
-offset_right = 264.0
-offset_bottom = 72.0
+offset_left = 5.0
+offset_top = 9.0
+offset_right = 269.0
+offset_bottom = 64.0
 theme_override_fonts/font = ExtResource("5_na7qg")
-text = "Spacebar for continue"
+text = "Spacebar to continue"
 label_settings = SubResource("LabelSettings_iflwg")
 horizontal_alignment = 1
+vertical_alignment = 1
 autowrap_mode = 3
 
 [node name="Profile_picture" type="Control" parent="."]
@@ -244,7 +246,7 @@ offset_right = 1352.0
 offset_bottom = 184.0
 theme = SubResource("Theme_na7qg")
 theme_override_fonts/font = ExtResource("5_na7qg")
-theme_override_font_sizes/font_size = 32
+theme_override_font_sizes/font_size = 56
 horizontal_alignment = 1
 vertical_alignment = 1
 autowrap_mode = 3

@@ -14,7 +14,7 @@
 				"RU_CH_CN_01_005","RU_CH_NA_01_006","RU_CH_CN_01_006","RU_CH_NA_01_007"],
 		"Ch1_03":["RU_CH_CN_01_007","RU_CH_NA_01_008","RU_CH_CN_01_008"],
 		"Floor2_Ch1":["RU_CH_NA_01_009","RU_CH_CN_01_109"],
-		"Owner_Ch1":["RU_CH_NA_01_109","RU_CH_CN_01_009","RU_CH_CN_01_011","ITEM_book"],
+		"Owner_Ch1":["RU_CH_NA_01_109","RU_CH_CN_01_009","RU_CH_CN_01_011","ITEM_book","RU_IT_NA_00_222"],
 		"Owner_Ch2":["RU_CH_CN_OR_SC1"],
 		"Living_Ch1":["RU_CH_NA_01_010","RU_CH_CN_01_010"],
 		"Living_Ch2":["RU_CH_NA_01_012","RU_CH_CN_01_012"],
