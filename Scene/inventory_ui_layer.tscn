@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=3 uid="uid://y8bmdj6sfp2x"]
+
+[ext_resource type="Script" uid="uid://byhs54erb134l" path="res://script/array_inventory.gd" id="1_2g82o"]
+
+[node name="Inventory_UI_Layer" type="CanvasLayer"]
+
+[node name="Array_Inventory" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_2g82o")
+
+[node name="NinePatchRect" type="NinePatchRect" parent="Array_Inventory"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="GridContainer" type="GridContainer" parent="Array_Inventory/NinePatchRect"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+columns = 5

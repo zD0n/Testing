@@ -1,0 +1,137 @@
+[gd_scene load_steps=12 format=4 uid="uid://dhjv7l0tjy251"]
+
+[ext_resource type="PackedScene" uid="uid://dqg8mt7yhror0" path="res://Scene/charecter_dialog_area.tscn" id="1_mys42"]
+
+[sub_resource type="PortableCompressedTexture2D" id="PortableCompressedTexture2D_s01rd"]
+_data = PackedByteArray("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")
+size_override = Vector2(144, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mys42"]
+atlas = SubResource("PortableCompressedTexture2D_s01rd")
+region = Rect2(0, 64, 48, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yvn4x"]
+atlas = SubResource("PortableCompressedTexture2D_s01rd")
+region = Rect2(0, 0, 48, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5fle5"]
+atlas = SubResource("PortableCompressedTexture2D_s01rd")
+region = Rect2(48, 64, 48, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hchxe"]
+atlas = SubResource("PortableCompressedTexture2D_s01rd")
+region = Rect2(96, 64, 48, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uqbbs"]
+atlas = SubResource("PortableCompressedTexture2D_s01rd")
+region = Rect2(48, 0, 48, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0qgwq"]
+atlas = SubResource("PortableCompressedTexture2D_s01rd")
+region = Rect2(96, 0, 48, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_yqieg"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mys42")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mys42")
+}],
+"loop": true,
+"name": &"idle_b",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yvn4x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yvn4x")
+}],
+"loop": true,
+"name": &"idle_f",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mys42")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5fle5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mys42")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hchxe")
+}],
+"loop": true,
+"name": &"walk_b",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yvn4x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uqbbs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yvn4x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0qgwq")
+}],
+"loop": true,
+"name": &"walk_f",
+"speed": 4.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_yvn4x"]
+radius = 3.0
+height = 24.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5fle5"]
+size = Vector2(26, 56)
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(0, -29)
+sprite_frames = SubResource("SpriteFrames_yqieg")
+animation = &"walk_f"
+metadata/_aseprite_wizard_interface_config_ = {
+"layer_section": true,
+"pending_changes": {}
+}
+metadata/_aseprite_wizard_config_ = {
+"embed_tex": true,
+"layers": ["shadow", "head"],
+"o_ex_p": "",
+"o_folder": "",
+"o_name": "",
+"only_visible": false,
+"scale": "1.0",
+"should_round_fps": true,
+"slice": "",
+"source": "res://Asset/Character/Real/Ryou.aseprite",
+"source_uid": 1461047784554994809
+}
+metadata/_aseprite_wizard_source_file_hash_ = "596e2c109b63ef4970b17aed0b2e6d89"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_yvn4x")
+
+[node name="Charecter_Dialog_Area" parent="." instance=ExtResource("1_mys42")]
+position = Vector2(0, -29)
+
+[node name="CollisionShape2D" parent="Charecter_Dialog_Area" index="0"]
+position = Vector2(0, 2)
+shape = SubResource("RectangleShape2D_5fle5")
+debug_color = Color(0.894272, 0.289949, 0.358618, 0.42)
+
+[editable path="Charecter_Dialog_Area"]

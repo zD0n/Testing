@@ -1,0 +1,10 @@
+{
+	"content":{
+		"AN_RU_01":{
+			"answer_ch":[
+				{"label":"what? again.","connect":"RU_01_02"},
+				{"label":"...","connect":"fin"}
+			]
+		}
+	}
+}

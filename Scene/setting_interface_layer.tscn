@@ -1,0 +1,112 @@
+[gd_scene load_steps=2 format=3 uid="uid://bh0qfu8f8afk2"]
+
+[ext_resource type="Script" uid="uid://dex80bqhf5kpu" path="res://script/setting_interface_layer.gd" id="1_sy4rw"]
+
+[node name="Setting_Interface_Layer" type="CanvasLayer"]
+process_mode = 3
+script = ExtResource("1_sy4rw")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -229.5
+offset_top = -194.5
+offset_right = 229.5
+offset_bottom = 194.5
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(1.25, 1.25)
+pivot_offset = Vector2(240, 240)
+
+[node name="NinePatchRect" type="NinePatchRect" parent="Control/MarginContainer"]
+layout_mode = 2
+region_rect = Rect2(1, 0, 0, 0)
+
+[node name="Control" type="Control" parent="Control/MarginContainer"]
+layout_mode = 2
+
+[node name="Panel" type="Panel" parent="Control/MarginContainer/Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control/MarginContainer/Control"]
+layout_mode = 2
+offset_right = 459.0
+offset_bottom = 389.0
+
+[node name="vol" type="Label" parent="Control/MarginContainer/Control/VBoxContainer"]
+layout_mode = 2
+text = "Volum"
+horizontal_alignment = 1
+
+[node name="HSlider" type="HSlider" parent="Control/MarginContainer/Control/VBoxContainer"]
+layout_mode = 2
+min_value = -24.0
+max_value = 24.0
+step = 0.0
+
+[node name="HSeparator" type="HSeparator" parent="Control/MarginContainer/Control/VBoxContainer"]
+self_modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="Res" type="Label" parent="Control/MarginContainer/Control/VBoxContainer"]
+layout_mode = 2
+text = "Resolution"
+horizontal_alignment = 1
+
+[node name="OptionButton" type="OptionButton" parent="Control/MarginContainer/Control/VBoxContainer"]
+layout_mode = 2
+selected = 0
+item_count = 2
+popup/item_0/text = "1280x720"
+popup/item_0/id = 0
+popup/item_1/text = "1920x1080"
+popup/item_1/id = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Control/MarginContainer/Control"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -229.0
+offset_top = -64.0
+offset_right = 229.0
+offset_bottom = -14.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/separation = 50
+alignment = 1
+
+[node name="main_ma" type="Button" parent="Control/MarginContainer/Control/HBoxContainer"]
+custom_minimum_size = Vector2(100, 50)
+layout_mode = 2
+text = "Main Menu"
+
+[node name="quit" type="Button" parent="Control/MarginContainer/Control/HBoxContainer"]
+custom_minimum_size = Vector2(100, 50)
+layout_mode = 2
+text = "Quit"
+
+[connection signal="value_changed" from="Control/MarginContainer/Control/VBoxContainer/HSlider" to="." method="_on_h_slider_value_changed"]
+[connection signal="item_selected" from="Control/MarginContainer/Control/VBoxContainer/OptionButton" to="." method="_on_option_button_item_selected"]
+[connection signal="pressed" from="Control/MarginContainer/Control/HBoxContainer/main_ma" to="." method="_on_main_ma_pressed"]
+[connection signal="pressed" from="Control/MarginContainer/Control/HBoxContainer/quit" to="." method="_on_quit_pressed"]

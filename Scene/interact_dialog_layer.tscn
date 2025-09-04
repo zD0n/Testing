@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://dr0em8wotu4ny"]
+
+[ext_resource type="Script" uid="uid://br28wnjv8dpph" path="res://script/interact_dialog_layer.gd" id="1_703v4"]
+
+[node name="Interact_Dialog_Layer" type="CanvasLayer"]
+process_mode = 3
+script = ExtResource("1_703v4")
+
+[node name="Background" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0

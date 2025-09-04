@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ocwo6v4dnmy8"
+path="res://.godot/imported/8-bit talking sound effects!.mp3-7aff7e5d0b4cb95b0132c4b6a2c12afd.mp3str"
+
+[deps]
+
+source_file="res://Asset/Audio/SFX/8-bit talking sound effects!.mp3"
+dest_files=["res://.godot/imported/8-bit talking sound effects!.mp3-7aff7e5d0b4cb95b0132c4b6a2c12afd.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

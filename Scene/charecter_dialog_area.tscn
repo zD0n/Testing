@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=3 uid="uid://dqg8mt7yhror0"]
+
+[ext_resource type="Script" uid="uid://xfondc0d44gu" path="res://script/dialog_charecter_area.gd" id="1_b4h6r"]
+
+[node name="Charecter_Dialog_Area" type="Area2D"]
+process_mode = 3
+collision_layer = 0
+collision_mask = 4
+script = ExtResource("1_b4h6r")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[node name="Instant_area" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Instant_area"]
+disabled = true
+debug_color = Color(0.66094, 0.514177, 7.70092e-07, 0.42)
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
+[connection signal="area_exited" from="." to="." method="_on_area_exited"]
+[connection signal="body_entered" from="Instant_area" to="." method="_on_instant_area_body_entered"]
+[connection signal="body_exited" from="Instant_area" to="." method="_on_instant_area_body_exited"]

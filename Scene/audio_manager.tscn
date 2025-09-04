@@ -1,0 +1,35 @@
+[gd_scene load_steps=7 format=3 uid="uid://dpqyvbjsy22d6"]
+
+[ext_resource type="Script" path="res://audio_manager.gd" id="1_uux71"]
+[ext_resource type="AudioStream" uid="uid://butdwnwcnbqf4" path="res://Asset/Audio/Music/ssvid.net--Dark-Piano-Sociopath.mp3" id="2_fmqd6"]
+[ext_resource type="AudioStream" uid="uid://d07oqm1askwmn" path="res://Asset/Audio/SFX/8-bit talking sound effects! cut.mp3" id="3_ucjau"]
+[ext_resource type="AudioStream" uid="uid://drvuvy5rqtfgd" path="res://Asset/Audio/SFX/Door Opening Sound Effect.mp3" id="4_gp5ax"]
+[ext_resource type="AudioStream" uid="uid://bqat33sywantn" path="res://Asset/Audio/SFX/Door knocking sound effect cut.mp3" id="5_gp5ax"]
+[ext_resource type="AudioStream" uid="uid://cxuqubbsqqh0i" path="res://Asset/Audio/SFX/ssvid.net--Sound-Effects-Footsteps.mp3" id="6_yg1aa"]
+
+[node name="Audio Manager" type="Node" node_paths=PackedStringArray("clips")]
+process_mode = 3
+script = ExtResource("1_uux71")
+clips = NodePath("Clips")
+
+[node name="Clips" type="Node" parent="."]
+
+[node name="Main" type="AudioStreamPlayer" parent="Clips"]
+stream = ExtResource("2_fmqd6")
+volume_db = -5.0
+
+[node name="Talk" type="AudioStreamPlayer" parent="Clips"]
+stream = ExtResource("3_ucjau")
+volume_db = -15.0
+
+[node name="DoorOpen" type="AudioStreamPlayer" parent="Clips"]
+stream = ExtResource("4_gp5ax")
+volume_db = -15.0
+
+[node name="DoorKnocking" type="AudioStreamPlayer" parent="Clips"]
+stream = ExtResource("5_gp5ax")
+volume_db = -15.0
+
+[node name="Footstep" type="AudioStreamPlayer" parent="Clips"]
+stream = ExtResource("6_yg1aa")
+pitch_scale = 1.25

@@ -1,0 +1,137 @@
+[gd_scene load_steps=12 format=4 uid="uid://c4nef5x01tmdy"]
+
+[ext_resource type="PackedScene" uid="uid://dqg8mt7yhror0" path="res://Scene/charecter_dialog_area.tscn" id="1_01qcs"]
+
+[sub_resource type="PortableCompressedTexture2D" id="PortableCompressedTexture2D_6anrn"]
+_data = PackedByteArray("AAADAAUAAAABAAAAkAAAAIAAAACkBgAAUklGRpwGAABXRUJQVlA4TJAGAAAvj8AfEK/BMJKtJg/MOWsN9t8aGf7/bbCNJCkOv4WLRVDKPwXZ/LC7rCJJdrIvkb+QgB/04wABL+clyLap33jP94ABGFxEyor8TJMHcRcCUHsVrAMAcSgYACiuyLvLKnCVoqrcie5Eb+I3MYhBDEozI5JtFpHccJhglLkbZDbV/0pHS0eL2zjCpbXaYBeL2+iU/d/nLre+SKi/worUCIltF07w5Qeo27Yet22gS30CxbQyCpBOwkyep9CSwprv/27ARxAfarDTn4j+S3AbyZGkyMKas8yo7rs/qH/n02gCaD2cmsCG9Eo4CTMmQKvgJC4E2F2ugDPgNEHPocU7G4CGQQ+NpmEYArZ0p8bQ13VNdV2jrvsBVLqTUL8OkXmtCbpspwYN/elM0ITzifpBg8p2BuB5OmmCptN0IgYo2Qk/+jRxKCYPBUijXCcIhD9Pm42H4td5szkBhIZQqjNU5H2bD0+Pm9Np8/j0YfOLAGjC+3emM9HQeYPnp8nP0zM2ZxBCbUU6QVoRe6zw8hzy/ILpBA2t3r9TMoSGpticQA1U0U4N6HMsIA0q2xlu8lestjM8s3CnJpzitTWqdKdSMejprJQq3dk6a3b7OXO3N9a1ZTs987Dd7c9sdvvthYcW7Ww982Lnofzjdnc4GtuW7HTGMGiEeeEhrmBna32OARomMA8+ti3X6Yzh0MhHBrEu/SFMdbrsezkl2+voofOPHmHZETDtojNDb6lOyV4Ment3uD/cMqZj0rRY1umiM0NvqU7BXry7u/uHh/s79ntbBkkLZy075b2lOiV7saLuHwI0OEznjE2PNa5bdsp7S3PK9mKsBwZl8MvWOptWnDUe1F4uO+W9JTsFexkb8gCwWDN2rnU2CWqsB3XjslPeW7JTsBfvDS8/wXubxrcunDRm9zZOy055b+lOwV4B6pkeGph28kcpl1BceBc9c9kp703gTN+LPUYvP8NH9qBN/qjkGacUp7Q3iTN9L/aeMeZL6K2d/KRnSnIKe8vunHy6pd66kLKdl0u9XZbv/LjU28cVcFpj5715wgo4Pzmv4715gJvkmZacnzLsld/Zulhvrs2RJWf+vTLkc9e6eW+u7Ub5vxvjkvNzhr2yO+HH8d5cMIzjqATjUcvO/HvJomYBApMLlHjizlmUbK/8ztj2eRME+feKRLhXUv6zcVIIyRLTlRFNfrQsMV0ZuWEjS0xXRq5DrmWJ6crI1bVf8EqWmC5jqhs2VVXNBVJm1Fld+akqITSmi4nz7JXNGdPFR+ScTTRy51XIVRURyJxRXaYT00XFwsUi9xgRyBLT5U9ELL/IhJF+kzjvyalUmjL7+Quc/wXM740m0Ho4NQHQAOmVcBL8EAgArYKTGFJzKq2AkxCguh9Is+aKd2oA/TD0X+vvw9AT0JTuJK98rev6e/21rl+9VBfuBPBa98PX7/WP/vvQ16+g8p39QOjr/lv9lXS4yaZoJwjQBAz11y91D9KNJl2yc/7693WvaagHUEDT+3eKmYAnhgIbrgC9f6eICT2/y1lpCJwSnMlSMCAI8/9LAr0hlOpUmjD/GKzcSIFTqlOxmwwfI7eo+WtRrLMhsI9cC8Yu26k06dkFAqAGIFW4U+kmQJmVNEC6eKfa7zRB04ypVOHO1h0P+93+tyZYt6DD0bVlO501x62HbveatjvaXhjrina2nnm42O63u+1+i+3u8MfR2LZkpzOGQXf84+Hi6CGuYGdrfQ4zKGvt4GPbcp3OmBmUf/RMVlyxTmcZ00MjTDbWvX+ngMmgjGqP9mCPc2iZTstISx+tcUyaFgZyy06ul+yV6pTsZV0c6mzrqenxpHbZKe8tzSnby1kTG2tcx+QmkelJ3bJT3luyU7CXNUvz1jpvT4t1nvS27JT3luqU7GXsQuzbOHbhpDG7cUxwinsTONP3sgtQa8dpGpVyCU96eBeDadGZobd0p2CvONSakEklz5TilPYmcqbv5ZaYbp6CnUu9rYCzXeqtXQHnUm8r4OxMDGqN7VbAaU384wo4L6NIZ+zlOE1jesYkZ/69MqR1EaZ1bYgSTIoz/14ZAj/WtV3nvcHwNo6SjOPbsjP/XrKoWYCAmAnEs+yU32Oac3Ui3Csp/5s7b9jIEtOVkauQK1liuoypeG9VVc0FUmbUWV35qSohNKaLifPslc0Z08VH5JxNNHInv8cqIpA5o7pMJ6aLioWLRe4xIpAlpsufiFh+kQkj/SZx3pNTqTRl9vMXOxU=")
+size_override = Vector2(144, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_01qcs"]
+atlas = SubResource("PortableCompressedTexture2D_6anrn")
+region = Rect2(0, 64, 48, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rui40"]
+atlas = SubResource("PortableCompressedTexture2D_6anrn")
+region = Rect2(0, 0, 48, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xhfla"]
+atlas = SubResource("PortableCompressedTexture2D_6anrn")
+region = Rect2(48, 64, 48, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lq6hs"]
+atlas = SubResource("PortableCompressedTexture2D_6anrn")
+region = Rect2(96, 64, 48, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qjji0"]
+atlas = SubResource("PortableCompressedTexture2D_6anrn")
+region = Rect2(48, 0, 48, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7fo23"]
+atlas = SubResource("PortableCompressedTexture2D_6anrn")
+region = Rect2(96, 0, 48, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_jt1x7"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_01qcs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_01qcs")
+}],
+"loop": true,
+"name": &"idle_b",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rui40")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rui40")
+}],
+"loop": true,
+"name": &"idle_f",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_01qcs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xhfla")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_01qcs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lq6hs")
+}],
+"loop": true,
+"name": &"walk_b",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rui40")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qjji0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rui40")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7fo23")
+}],
+"loop": true,
+"name": &"walk_f",
+"speed": 4.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_rui40"]
+radius = 3.0
+height = 22.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xhfla"]
+size = Vector2(33, 60)
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(0, -29)
+sprite_frames = SubResource("SpriteFrames_jt1x7")
+animation = &"walk_f"
+metadata/_aseprite_wizard_interface_config_ = {
+"layer_section": true,
+"pending_changes": {}
+}
+metadata/_aseprite_wizard_config_ = {
+"embed_tex": true,
+"layers": ["shadow", "head"],
+"o_ex_p": "",
+"o_folder": "",
+"o_name": "",
+"only_visible": false,
+"scale": "1.0",
+"should_round_fps": true,
+"slice": "",
+"source": "res://Asset/Character/Rainbell/Renbel.aseprite",
+"source_uid": 838318544742598027
+}
+metadata/_aseprite_wizard_source_file_hash_ = "62d117662fac1e3390dc7994c0e738b9"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_rui40")
+
+[node name="Charecter_Dialog_Area" parent="." instance=ExtResource("1_01qcs")]
+position = Vector2(0, -29)
+
+[node name="CollisionShape2D" parent="Charecter_Dialog_Area" index="0"]
+position = Vector2(-0.5, 1)
+shape = SubResource("RectangleShape2D_xhfla")
+debug_color = Color(0.888475, 0.300144, 0.350142, 0.42)
+
+[editable path="Charecter_Dialog_Area"]

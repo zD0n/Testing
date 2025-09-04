@@ -1,0 +1,39 @@
+[gd_scene load_steps=4 format=3 uid="uid://ch81kbd2eb02c"]
+
+[ext_resource type="Script" uid="uid://dj7hfhhafdnsl" path="res://setting_world.gd" id="1_0tr40"]
+[ext_resource type="PackedScene" uid="uid://bh0qfu8f8afk2" path="res://Scene/setting_interface_layer.tscn" id="2_pbbsx"]
+[ext_resource type="Texture2D" uid="uid://ch7h74hd7tawj" path="res://Image/BackGround/Menu.jpg" id="4_nhb0s"]
+
+[node name="setting_world" type="Node2D"]
+script = ExtResource("1_0tr40")
+
+[node name="Menu" type="Sprite2D" parent="."]
+position = Vector2(959, 542.5)
+scale = Vector2(0.498958, 0.500463)
+texture = ExtResource("4_nhb0s")
+
+[node name="Setting_Interface_Layer" parent="." instance=ExtResource("2_pbbsx")]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Control" type="Control" parent="CanvasLayer"]
+top_level = true
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1918.0
+offset_bottom = 1083.0
+
+[node name="Button" type="Button" parent="CanvasLayer/Control"]
+top_level = true
+custom_minimum_size = Vector2(200, 60)
+layout_mode = 0
+offset_left = 865.0
+offset_top = 698.0
+offset_right = 1065.0
+offset_bottom = 758.0
+size_flags_horizontal = 4
+text = "BACK"
+
+[connection signal="pressed" from="CanvasLayer/Control/Button" to="." method="_on_button_pressed"]
+
+[editable path="Setting_Interface_Layer"]

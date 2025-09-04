@@ -1,0 +1,89 @@
+[gd_scene load_steps=9 format=3 uid="uid://dd3itvnv405qr"]
+
+[ext_resource type="Script" uid="uid://bmpe7wuuwva70" path="res://script/intro.gd" id="1_1rpvy"]
+[ext_resource type="Texture2D" uid="uid://d2v3ecylver60" path="res://Asset/Tiles/black_background.png" id="1_gjrx4"]
+[ext_resource type="PackedScene" uid="uid://bg4hk8eir30fo" path="res://Scene/world_1.tscn" id="2_6omm5"]
+[ext_resource type="Texture2D" uid="uid://cv616st5j81hh" path="res://Asset/Tiles/white_backgroud.png" id="2_iysgs"]
+[ext_resource type="Texture2D" uid="uid://b31gg3ejof2f4" path="res://Asset/Tiles/Book.png" id="3_1rpvy"]
+[ext_resource type="Texture2D" uid="uid://c1rrk0qa0gdh5" path="res://Asset/Tiles/Intro1.png" id="4_6omm5"]
+[ext_resource type="Texture2D" uid="uid://bnb8yslqykopf" path="res://Asset/Tiles/Intro2.png" id="5_4ad6s"]
+[ext_resource type="PackedScene" uid="uid://cl16hinyu50v2" path="res://Scene/character_dialog_layer.tscn" id="6_7136s"]
+
+[node name="Node" type="Node"]
+script = ExtResource("1_1rpvy")
+world = ExtResource("2_6omm5")
+
+[node name="WhiteBackgroud" type="Sprite2D" parent="."]
+modulate = Color(0.351563, 0.351563, 0.351563, 1)
+position = Vector2(960, 544)
+scale = Vector2(3.2, 1.9)
+texture = ExtResource("2_iysgs")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+
+[node name="Book" type="Sprite2D" parent="."]
+position = Vector2(960, 472)
+scale = Vector2(0.353, 0.236)
+texture = ExtResource("3_1rpvy")
+
+[node name="Intro1" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(960, 536)
+texture = ExtResource("4_6omm5")
+
+[node name="Intro2" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(960, 400)
+texture = ExtResource("5_4ad6s")
+
+[node name="Character_Dialog_Layer" parent="." instance=ExtResource("6_7136s")]
+visible = false
+
+[node name="Panel" parent="Character_Dialog_Layer/text_dialog_bag" index="0"]
+offset_top = -1.0
+offset_bottom = 199.0
+
+[node name="Label" parent="Character_Dialog_Layer/text_dialog_bag" index="1"]
+offset_top = 4.0
+offset_bottom = 166.0
+
+[node name="char_profile" parent="Character_Dialog_Layer/Profile_picture" index="1"]
+scale = Vector2(0.16, 0.144)
+animation = &"ryou"
+
+[node name="Panel" parent="Character_Dialog_Layer/narater_dialog" index="0"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -692.0
+offset_top = -100.0
+offset_right = 692.0
+offset_bottom = 100.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" parent="Character_Dialog_Layer/narater_dialog" index="1"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -683.0
+offset_top = -82.0
+offset_right = 683.0
+offset_bottom = 82.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="BlackBackground" type="Sprite2D" parent="."]
+visible = false
+top_level = true
+position = Vector2(960, 544)
+scale = Vector2(1.06667, 1.12593)
+texture = ExtResource("1_gjrx4")
+
+[editable path="Character_Dialog_Layer"]
