@@ -1,6 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://dr0em8wotu4ny"]
+[gd_scene load_steps=2 format=3 uid="uid://bji5vp6e7ujm3"]
 
-[ext_resource type="Script" uid="uid://br28wnjv8dpph" path="res://script/interact_dialog_layer.gd" id="1_703v4"]
+[ext_resource type="Script" uid="uid://j7hwb3g841md" path="res://script/interact_dialog_layer.gd" id="1_703v4"]
 
 [node name="Interact_Dialog_Layer" type="CanvasLayer"]
 process_mode = 3

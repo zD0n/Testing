@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://bxdl2eempgfwd"
+path="res://.godot/imported/kyoto_act.aseprite-624590c40c0f0e86aef077da8e104763.res"
+
+[deps]
+
+source_file="res://Asset/Character/Kyo/kyoto_act.aseprite"
+dest_files=["res://.godot/imported/kyoto_act.aseprite-624590c40c0f0e86aef077da8e104763.res"]
+
+[params]
+
