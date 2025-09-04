@@ -1,9 +1,9 @@
 affd29dcfc892077fd5194ae1cd3f129
-::res://::1756954604
+::res://::1756954733
 ADD-ON AND METHOD file and link.md::TextFile/TextFile::-1::1756951292::0::1::::<><><>0<>0<><>::
 audio_manager.gd::GDScript/GDScript::5422203797257588723::1756943610::0::1::::<>Node<><>0<>0<><>::
 default_bus_layout.tres::AudioBusLayout/AudioBusLayout::8388152890385614545::1756944440::0::1::::<><><>0<>0<><>::
-export_presets.cfg::TextFile/TextFile::-1::1756954604::0::1::::<><><>0<>0<><>::
+export_presets.cfg::TextFile/TextFile::-1::1756954733::0::1::::<><><>0<>0<><>::
 README.md::TextFile/TextFile::-1::1756951292::0::1::::<><><>0<>0<><>::
 setting_world.gd::GDScript/GDScript::7857456058354294347::1756944440::0::1::::<>Node2D<><>0<>0<><>::
 ::res://addons/::1756951374
@@ -162,10 +162,10 @@ Intro1.png::CompressedTexture2D/CompressedTexture2D::6633897108444411352::175692
 Intro2.png::CompressedTexture2D/CompressedTexture2D::3302987511729192395::1756929026::1756951310::1::::<><><>0<>0<>78175dba6e621ccb7ce8a3bea6d67120<>res://.godot/imported/Intro2.png-201e0b3ad41e84d7c26da53d0bbda9b7.ctex::
 Mansion.png::CompressedTexture2D/CompressedTexture2D::3285543990931221104::1756951292::1756951310::1::::<><><>0<>0<>8bb3218b42f3083cc7eb58b07d5bb8ec<>res://.godot/imported/Mansion.png-f13acc30e10ae28227bdf9bd3b5859a8.ctex::
 white_backgroud.png::CompressedTexture2D/CompressedTexture2D::6312437771731718645::1756944440::1756951310::1::::<><><>0<>0<>dcea54d61ea7a316a6df162d8ec66cb0<>res://.godot/imported/white_backgroud.png-ccfb036c49b8915aecda4b97b370af22.ctex::
-::res://docs/::1756954615
-index.apple-touch-icon.png::CompressedTexture2D::4873581291827282119::1756954615::1756954657::1::::<><><>0<>0<>f590ba0d723f9ec022d86f86c6c80dfb<>res://.godot/imported/index.apple-touch-icon.png-b21a756d869f84af832970a74d8371bc.ctex::
-index.icon.png::CompressedTexture2D::7097431249430286579::1756954615::1756954657::1::::<><><>0<>0<>a37544e1de8a6ffe05a70a66ee7f69ac<>res://.godot/imported/index.icon.png-b92c9a802ad4b78e247784454a6b506f.ctex::
-index.png::CompressedTexture2D::7662647435052977213::1756954615::1756954657::1::::<><><>0<>0<>448c6a38dea77f268696653783ce7403<>res://.godot/imported/index.png-0c78d14d192abe5f22f8c25928ca1ab8.ctex::
+::res://docs/::1756954743
+index.apple-touch-icon.png::CompressedTexture2D::7797332742318092370::1756954743::1756954745::1::::<><><>0<>0<>ce3337b79a876946fddff68866c36bcb<>res://.godot/imported/index.apple-touch-icon.png-b21a756d869f84af832970a74d8371bc.ctex::
+index.icon.png::CompressedTexture2D::3410890920662724756::1756954743::1756954745::1::::<><><>0<>0<>ba18473af133034b15548f1692645589<>res://.godot/imported/index.icon.png-b92c9a802ad4b78e247784454a6b506f.ctex::
+index.png::CompressedTexture2D::5450517984723417863::1756954743::1756954745::1::::<><><>0<>0<>2a014bbc5f89c617216d4a95dfa7b0cf<>res://.godot/imported/index.png-0c78d14d192abe5f22f8c25928ca1ab8.ctex::
 ::res://Game Mechanics Demo/::1756951375
 ::res://Game Mechanics Demo/Json Conver/::1756951375
 ::res://Game Mechanics Demo/Json Conver/example/::1756951375
