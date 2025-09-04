@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=3 uid="uid://cl16hinyu50v2"]
+[gd_scene load_steps=19 format=3 uid="uid://cl16hinyu50v2"]
 
 [ext_resource type="Script" uid="uid://cchhv1woyihes" path="res://script/character_dialog_script.gd" id="1_73p86"]
 [ext_resource type="Texture2D" uid="uid://d2v3ecylver60" path="res://Asset/Tiles/black_background.png" id="2_wyocy"]
@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://0e0rdx6xrm4w" path="res://Asset/Character/Rigo/Rigo.png" id="4_ft204"]
 [ext_resource type="Theme" uid="uid://ockebcoevtig" path="res://theme/dialog_theme.tres" id="4_jvgqs"]
 [ext_resource type="Texture2D" uid="uid://drytu5qamedg6" path="res://Asset/Character/Silvy/Silvy.png" id="5_jvgqs"]
+[ext_resource type="FontFile" uid="uid://dxplph7kg0fd" path="res://Asset/NotoSansThai-VariableFont_wdth,wght.ttf" id="5_na7qg"]
 [ext_resource type="Texture2D" uid="uid://bcqv7w74dm88o" path="res://Asset/Character/Dell/Dell.png" id="6_na7qg"]
 [ext_resource type="Texture2D" uid="uid://eg5pkmgpkxk5" path="res://Asset/Character/Julian/Julian.png" id="7_iflwg"]
 [ext_resource type="Texture2D" uid="uid://btutv0lvia5om" path="res://Asset/Character/Kyo/Kyo.png" id="8_emcmp"]
@@ -153,6 +154,7 @@ offset_top = 20.0
 offset_right = 1352.0
 offset_bottom = 184.0
 theme = SubResource("Theme_na7qg")
+theme_override_fonts/font = ExtResource("5_na7qg")
 theme_override_font_sizes/font_size = 32
 label_settings = SubResource("LabelSettings_na7qg")
 autowrap_mode = 3
@@ -176,6 +178,7 @@ layout_mode = 0
 offset_top = 17.0
 offset_right = 264.0
 offset_bottom = 72.0
+theme_override_fonts/font = ExtResource("5_na7qg")
 text = "Spacebar for continue"
 label_settings = SubResource("LabelSettings_iflwg")
 horizontal_alignment = 1
@@ -213,6 +216,7 @@ offset_left = 478.0
 offset_top = 270.0
 offset_right = 728.0
 offset_bottom = 337.0
+theme_override_fonts/font = ExtResource("5_na7qg")
 label_settings = SubResource("LabelSettings_jvgqs")
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -239,6 +243,7 @@ offset_top = 20.0
 offset_right = 1352.0
 offset_bottom = 184.0
 theme = SubResource("Theme_na7qg")
+theme_override_fonts/font = ExtResource("5_na7qg")
 theme_override_font_sizes/font_size = 32
 horizontal_alignment = 1
 vertical_alignment = 1
